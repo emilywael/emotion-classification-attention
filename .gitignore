@@ -1,0 +1,23 @@
+# Downloaded data / embeddings
+glove.6B.zip
+glove.6B.*.txt
+
+# Trained model artifacts (too large for git — use Git LFS or HF Hub instead)
+*.h5
+distilbert_emotion/
+distilbert_emotion_final/
+tokenizer.pickle
+label_map.json
+model_comparison_results.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
